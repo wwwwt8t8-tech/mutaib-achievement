@@ -1,0 +1,10 @@
+منصة التميز والتحصيل الدراسي — مجمع الأمير متعب بن عبدالعزيز التعليمي
+
+للتحديث على GitHub:
+1. افتح مستودع mutaib-achievement.
+2. ارفع index.html و app.js و config.js و README.md و schema.sql من هذا المجلد إلى جذر المستودع، مع استبدال الملفات القديمة عند الطلب.
+3. انتظر اكتمال نشر GitHub Pages ثم حدّث الموقع.
+4. المنصة تعمل تجريبيًا دون حسابات حقيقية إلى حين إعداد Supabase.
+5. لتفعيل السحابة: أنشئ مشروع Supabase، نفّذ schema.sql في SQL Editor، أنشئ المستخدمين في Authentication، ثم أضف سجلات profiles بالأدوار المناسبة، وضع Project URL و publishable/anon key في config.js.
+6. لا تضع service_role أو secret keys في config.js أو GitHub. لا تدخل بيانات طلاب شخصية في الوضع التجريبي.
+7. لا يتم إنشاء الحسابات الحقيقية تلقائيًا بمجرد رفع الملفات؛ لا بد من إعداد Supabase وصلاحياته.
